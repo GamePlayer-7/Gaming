@@ -5,3 +5,5 @@ for i in range(0,3):
          if user == number:
          print("Hurray!!")
                print(f"you guessed the number right it's {number}")
+         break
+if user != number:
