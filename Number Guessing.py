@@ -1,4 +1,4 @@
-import random
+import random        # imports the random module, which contains a variety of things to do with random number generation.
 number = random.randint(1,10)
 for i in range(0,3):
     user = int(input("guess the number"))
