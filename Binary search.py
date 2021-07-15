@@ -3,3 +3,5 @@ lst.sort()
 first=0
 last=len(lst)-1
 mid = (first+last)//2
+item = int(input("enter the number to be search"))
+found = False
