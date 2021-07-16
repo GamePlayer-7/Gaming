@@ -5,3 +5,5 @@ last=len(lst)-1
 mid = (first+last)//2
 item = int(input("enter the number to be search"))
 found = False
+while( first<=last and not found):
+    mid = (first + last)//2
