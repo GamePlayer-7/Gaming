@@ -10,3 +10,6 @@ while( first<=last and not found):
 if lst[mid] == item :
          print(f"found at location {mid}")
          found= True
+else:
+        if item < lst[mid]:
+            last = mid - 1
