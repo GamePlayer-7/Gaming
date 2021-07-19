@@ -13,3 +13,5 @@ if lst[mid] == item :
 else:
         if item < lst[mid]:
             last = mid - 1
+else:
+            first = mid + 1
