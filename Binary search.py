@@ -15,3 +15,4 @@ else:
             last = mid - 1
 else:
             first = mid + 1
+if found == False:
