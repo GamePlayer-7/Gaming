@@ -16,3 +16,4 @@ else:
 else:
             first = mid + 1
 if found == False:
+print("Number not found")
