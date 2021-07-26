@@ -1,7 +1,7 @@
 lst = [1,3,2,4,5,6,9,8,7,10]
 lst.sort()
 first=0
-last=len(lst)-1
+last=len(lst)-1               //easily find the length of a string
 mid = (first+last)//2
 item = int(input("enter the number to be search"))
 found = False
